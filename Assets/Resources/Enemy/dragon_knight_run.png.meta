@@ -120,12 +120,12 @@ TextureImporter:
       name: dragon_knight_run_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 13
         y: 0
-        width: 96
-        height: 64
+        width: 31
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,12 +141,12 @@ TextureImporter:
       name: dragon_knight_run_1
       rect:
         serializedVersion: 2
-        x: 96
+        x: 109
         y: 0
-        width: 96
-        height: 64
+        width: 31
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: dragon_knight_run_2
       rect:
         serializedVersion: 2
-        x: 192
+        x: 205
         y: 0
-        width: 96
-        height: 64
+        width: 31
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -183,12 +183,12 @@ TextureImporter:
       name: dragon_knight_run_3
       rect:
         serializedVersion: 2
-        x: 288
+        x: 301
         y: 0
-        width: 96
-        height: 64
+        width: 32
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
