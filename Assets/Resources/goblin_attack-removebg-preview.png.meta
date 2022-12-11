@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9e9f95e1c2ae14e889fa97128a569dc5
+guid: b2513e3f604e04681a1807428349fed2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: goblin death_0
+      name: goblin_attack-removebg-preview_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 672
-        height: 672
+        width: 176.75
+        height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 428882e233a414b0ca93f2fecb914ced
-      internalID: 501922199
+      spriteID: 4d4d8011060be425fb235054dcf45f74
+      internalID: -1996846174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goblin death_1
+      name: goblin_attack-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 672
+        x: 176
         y: 0
-        width: 672
-        height: 672
+        width: 176.75
+        height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44f9ce5641c4f4e62b92a7057962c212
-      internalID: -986648899
+      spriteID: 38b48b1edc39945638c8d84d04bdd7c3
+      internalID: -423061971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goblin death_2
+      name: goblin_attack-removebg-preview_2
       rect:
         serializedVersion: 2
-        x: 1344
+        x: 352
         y: 0
-        width: 672
-        height: 672
+        width: 176.75
+        height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abb4e6f6206094acf827f852e6253464
-      internalID: -1552038947
+      spriteID: 114bbca04cdb24819844b57245275f7b
+      internalID: -305578488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goblin death_3
+      name: goblin_attack-removebg-preview_3
       rect:
         serializedVersion: 2
-        x: 2016
+        x: 528
         y: 0
-        width: 672
-        height: 672
+        width: 176.75
+        height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c967d1541721a485ca779aa5b0843d8f
-      internalID: -1625980582
+      spriteID: 55238bf008102413d8ea086ca9ba0bd8
+      internalID: -1742321590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goblin death_4
+      name: goblin_attack-removebg-preview_4
       rect:
         serializedVersion: 2
-        x: 2688
+        x: 704
         y: 0
-        width: 672
-        height: 672
+        width: 176.75
+        height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4982205d76b8547888539dd33509658f
-      internalID: -1833350000
+      spriteID: a3f7e01b594f241fa9ac3458aa2eac36
+      internalID: 1784753799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goblin death_5
+      name: goblin_attack-removebg-preview_5
       rect:
         serializedVersion: 2
-        x: 3360
+        x: 880
         y: 0
-        width: 672
-        height: 672
+        width: 176.75
+        height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00de620a9f42044bf972649ef4ced2fe
-      internalID: -1736249283
+      spriteID: c1a4c4e2ee34a440f90abdaffba5ef07
+      internalID: 1314447486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goblin death_6
+      name: goblin_attack-removebg-preview_6
       rect:
         serializedVersion: 2
-        x: 4032
+        x: 1056
         y: 0
-        width: 672
-        height: 672
+        width: 176.75
+        height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,29 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eccca8c4e592f421ba0416502bd4bbb4
-      internalID: -1907021451
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: goblin death_7
-      rect:
-        serializedVersion: 2
-        x: 4704
-        y: 0
-        width: 672
-        height: 672
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbdc85f21954a432a920738b481a4677
-      internalID: -2144644072
+      spriteID: 6ac211e8a9d0847ad8060a50e8833b09
+      internalID: -1573694501
       vertices: []
       indices: 
       edges: []
@@ -283,14 +262,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      goblin death_6: -1907021451
-      goblin death_5: -1736249283
-      goblin death_1: -986648899
-      goblin death_3: -1625980582
-      goblin death_2: -1552038947
-      goblin death_4: -1833350000
-      goblin death_0: 501922199
-      goblin death_7: -2144644072
+      goblin_attack-removebg-preview_6: -1573694501
+      goblin_attack-removebg-preview_2: -305578488
+      goblin_attack-removebg-preview_0: -1996846174
+      goblin_attack-removebg-preview_5: 1314447486
+      goblin_attack-removebg-preview_4: 1784753799
+      goblin_attack-removebg-preview_3: -1742321590
+      goblin_attack-removebg-preview_1: -423061971
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

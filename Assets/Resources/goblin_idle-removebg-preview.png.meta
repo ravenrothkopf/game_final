@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3d0221ce1dacd45c1ab58c6a09e13134
+guid: 44ed53bf465a44ffa8b10c3e25772795
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: goblin run 1_0
+      name: goblin_idle-removebg-preview_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 672
-        height: 672
+        width: 176.75
+        height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73941d298ba834daa80fce1149d5bb67
-      internalID: -1919277651
+      spriteID: 74c7fc51848eb4ff4b41768aae776ee9
+      internalID: 1002495309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goblin run 1_1
+      name: goblin_idle-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 672
+        x: 176
         y: 0
-        width: 672
-        height: 672
+        width: 176.75
+        height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c7813c0a72a34ed58a6affb81ec3472
-      internalID: 830269550
+      spriteID: 0caa9bba66d0f4955934e6d6f7033df7
+      internalID: 1034178880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goblin run 1_2
+      name: goblin_idle-removebg-preview_2
       rect:
         serializedVersion: 2
-        x: 1344
+        x: 352
         y: 0
-        width: 672
-        height: 672
+        width: 176.75
+        height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,113 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65700dcd852e946e194b7701237dfd64
-      internalID: 1787220961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: goblin run 1_3
-      rect:
-        serializedVersion: 2
-        x: 2016
-        y: 0
-        width: 672
-        height: 672
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ace5b0a10ef342f1a8a1d353ad3283d
-      internalID: 370012095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: goblin run 1_4
-      rect:
-        serializedVersion: 2
-        x: 2688
-        y: 0
-        width: 672
-        height: 672
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2858bb897c7f646ef857f883ce0a7039
-      internalID: 392275666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: goblin run 1_5
-      rect:
-        serializedVersion: 2
-        x: 3360
-        y: 0
-        width: 672
-        height: 672
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69d7fc41c323c4caab1e7a36ed881b3c
-      internalID: 1697994078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: goblin run 1_6
-      rect:
-        serializedVersion: 2
-        x: 4032
-        y: 0
-        width: 672
-        height: 672
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f59f254f4d7a4d02b960c5d006a7ec0
-      internalID: 765080590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: goblin run 1_7
-      rect:
-        serializedVersion: 2
-        x: 4704
-        y: 0
-        width: 672
-        height: 672
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93c095669b2984ce8a815b40275d6c21
-      internalID: -1261764922
+      spriteID: 53a9547b60b5a452b9482f9d16ddf8b5
+      internalID: -1540275215
       vertices: []
       indices: 
       edges: []
@@ -283,14 +178,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      goblin run 1_0: -1919277651
-      goblin run 1_4: 392275666
-      goblin run 1_5: 1697994078
-      goblin run 1_6: 765080590
-      goblin run 1_3: 370012095
-      goblin run 1_2: 1787220961
-      goblin run 1_1: 830269550
-      goblin run 1_7: -1261764922
+      goblin_idle-removebg-preview_2: -1540275215
+      goblin_idle-removebg-preview_1: 1034178880
+      goblin_idle-removebg-preview_0: 1002495309
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
