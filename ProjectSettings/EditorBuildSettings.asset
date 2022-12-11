@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/boss battle.unity
+    guid: e10cfe504ee2f42959ada5f62710fd8c
   m_configObjects: {}
