@@ -5,6 +5,9 @@ using UnityEngine;
 public class Gem : MonoBehaviour
 {
     private bool isCollected;
+    public AudioSource audioSource;
+    public AudioClip collectClip;
+
     void Start(){
         isCollected = false;
     }
@@ -14,7 +17,9 @@ public class Gem : MonoBehaviour
         if(collision.tag == "Player")
         {
             if (!isCollected){
-                Destroy(this.gameObject);
+                audioSource.Play();
+                transform.position = Vector3.one * 9999f;
+                Destroy(this.gameObject, collectClip.length);
                 //sound fx stuff: SFXManager.sfxInstance.Audio.PlayOneShot(SFXManager.sfxInstance.Drop);
                 FindObjectOfType<Score>().IncreaseScore();
                 isCollected = true;
