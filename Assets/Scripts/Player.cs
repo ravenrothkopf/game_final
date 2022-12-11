@@ -11,11 +11,18 @@ public class Player : MonoBehaviour
 
     // animation contorller
     public Animator anim;
+    public Animator enemyAnim;
+
+    // health
+    public int maxHealth;
+    int curHealth;
+    public bool isAlive = true;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        curHealth = maxHealth;
     }
 
     // Update is called once per frame
@@ -43,5 +50,25 @@ public class Player : MonoBehaviour
 
     void FixedUpdate(){
         rb.velocity = new Vector2(playerDirection.x * playerSpeed, playerDirection.y * playerSpeed);
+    }
+
+        public void TakeDamage(int damage){
+        curHealth -= damage;
+        anim.SetTrigger("hurt");
+        
+        // play animation
+
+        if(curHealth <=0){
+            Die();
+        }
+
+    }
+
+    void Die(){
+        // die animation
+        isAlive = false;
+        rb.constraints = RigidbodyConstraints2D.FreezePosition;
+        anim.SetBool("isDead", true);
+        this.enabled = false;
     }
 }

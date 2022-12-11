@@ -5,6 +5,7 @@ using UnityEngine;
 public class enemy_running : StateMachineBehaviour
 {
     Transform player;
+    bool playerAlive;
     Rigidbody2D rb;
     public float speed = 6f;
     public float attackRange = 1f;
@@ -16,6 +17,8 @@ public class enemy_running : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        playerAlive = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().isAlive;
+        Debug.Log(playerAlive);
         rb = animator.GetComponent<Rigidbody2D>();
         boss = animator.GetComponent<Enemy>();
     }
@@ -28,12 +31,18 @@ public class enemy_running : StateMachineBehaviour
         Vector2 newPos = Vector2.MoveTowards(rb.position, direction, speed * Time.fixedDeltaTime);
         rb.MovePosition(newPos);
 
-        if(Vector2.Distance(player.position, rb.position) < attackRange){
-            animator.SetTrigger("attack");
-        }
-
-        if(Vector2.Distance(player.position, rb.position) > chaseRange){
+        if(playerAlive == false){
             animator.SetBool("moving", false);
+            rb.constraints = RigidbodyConstraints2D.FreezePosition;
+        }
+        else{
+            if(Vector2.Distance(player.position, rb.position) < attackRange){
+                animator.SetTrigger("attack");
+         }
+
+         if(Vector2.Distance(player.position, rb.position) > chaseRange){
+                animator.SetBool("moving", false);
+         }
         }
     }
 
