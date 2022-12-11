@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    // moving player
     public float playerSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 playerDirection;
 
+    // animation contorller
     public Animator anim;
 
     // Start is called before the first frame update

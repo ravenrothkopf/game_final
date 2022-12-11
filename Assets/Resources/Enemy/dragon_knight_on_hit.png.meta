@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fc6ddaee13c5840d6b9d1cf673fc42e2
+guid: 2aec70765b243484d9ecf29e3275f9db
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,43 +117,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dragon_knight_idle_0
+      name: dragon_knight_on_hit_0
       rect:
         serializedVersion: 2
         x: 13
         y: 0
         width: 31
         height: 16
-      alignment: 9
-      pivot: {x: 0.33579415, y: 0.47107753}
-      border: {x: 5, y: 0, z: 17, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7dc906240b3e94f9f9b8026bc7109173
-      internalID: 271259516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragon_knight_idle_1
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 0
-        width: 31
-        height: 16
-      alignment: 9
-      pivot: {x: 0.34325826, y: 0.5289228}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 6, y: 0, z: 17, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff780b16d12434be799f76e5c1fa3dac
-      internalID: -1856670831
+      spriteID: 9280205dfbd3f45c8885fdaf1cde6f25
+      internalID: 245545827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_knight_on_hit_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 0
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 6, y: 0, z: 15, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050234765cc0647aab556fdd3f788b26
+      internalID: -1604163428
       vertices: []
       indices: 
       edges: []
@@ -169,8 +169,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      dragon_knight_idle_1: -1856670831
-      dragon_knight_idle_0: 271259516
+      dragon_knight_on_hit_1: -1604163428
+      dragon_knight_on_hit_0: 245545827
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

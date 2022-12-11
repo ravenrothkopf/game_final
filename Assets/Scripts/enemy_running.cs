@@ -6,9 +6,9 @@ public class enemy_running : StateMachineBehaviour
 {
     Transform player;
     Rigidbody2D rb;
-    public float speed = 3f;
+    public float speed = 6f;
     public float attackRange = 1f;
-    public float chaseRange = 5f;
+    public float chaseRange = 6f;
 
     Enemy boss;
 
