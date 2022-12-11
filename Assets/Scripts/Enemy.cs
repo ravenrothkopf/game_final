@@ -4,20 +4,51 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public Transform player;
+    // health
+    public int maxHealth;
+    int curHealth;
 
-    public float moveSpeed;
-    private Rigidbody2D rb;
+    // taking damage
+    public Animator anim;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        rb = this.GetComponent<Rigidbody2D>();
+    void Start(){
+        curHealth = maxHealth;
     }
 
-    void FixedUpdate(){
-        Vector2 direction = (Vector2)player.position - rb.position;
-        direction.Normalize();
-        rb.velocity = new Vector2((direction.x) * moveSpeed, (direction.y) * moveSpeed);
+    public void TakeDamage(int damage){
+        curHealth -= damage;
+        anim.SetTrigger("hurt");
+        
+        // play animation
+
+        if(curHealth <=0){
+            Die();
+        }
+
+    }
+
+    void Die(){
+        // die animation
+        anim.SetBool("isDead", true);
+
+        // disable enemy 
+        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
+        this.enabled = false; 
+
+        Debug.Log("died");
+    }
+
+    // face player
+    public Transform player;
+
+    public void FacePlayer(){
+
+        // flip enemy to face player
+        if(transform.position.x > player.position.x){
+            this.transform.localScale = new Vector3(-4,4,4);
+        }
+        else{
+            this.transform.localScale = new Vector3(4,4,4);
+        }
     }
 }

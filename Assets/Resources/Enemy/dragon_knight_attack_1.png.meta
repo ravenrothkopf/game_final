@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fc6ddaee13c5840d6b9d1cf673fc42e2
+guid: 03e3ab4133a2f405bb7f1fe714b4b26f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,43 +117,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dragon_knight_idle_0
+      name: dragon_knight_attack_1_0
       rect:
         serializedVersion: 2
         x: 13
         y: 0
-        width: 31
-        height: 16
+        width: 45
+        height: 22
       alignment: 9
-      pivot: {x: 0.33579415, y: 0.47107753}
-      border: {x: 5, y: 0, z: 17, w: 0}
+      pivot: {x: 0.23995057, y: 0.31952706}
+      border: {x: 5, y: 0, z: 24, w: 7}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc906240b3e94f9f9b8026bc7109173
-      internalID: 271259516
+      spriteID: cc1665f07b3914719a51b4bf0006c47c
+      internalID: 1767236110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_knight_idle_1
+      name: dragon_knight_attack_1_1
       rect:
         serializedVersion: 2
         x: 109
         y: 0
-        width: 31
-        height: 16
+        width: 45
+        height: 22
       alignment: 9
-      pivot: {x: 0.34325826, y: 0.5289228}
-      border: {x: 6, y: 0, z: 17, w: 0}
+      pivot: {x: 0.24459432, y: 0.33852422}
+      border: {x: 5, y: 0, z: 24, w: 7}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff780b16d12434be799f76e5c1fa3dac
-      internalID: -1856670831
+      spriteID: b707f95b299b540e688e88f52542c4c8
+      internalID: -1305356591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_knight_attack_1_2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 45
+        height: 22
+      alignment: 9
+      pivot: {x: 0.11456977, y: 0.33852422}
+      border: {x: 0, y: 0, z: 30, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351207f9984814026a4c0c04482de9db
+      internalID: -1011937020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_knight_attack_1_3
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 45
+        height: 22
+      alignment: 9
+      pivot: {x: 0.10992567, y: 0.31952706}
+      border: {x: 0, y: 0, z: 29, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4120e62ed7a48f5936d317fdf74c66
+      internalID: -1995242796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_knight_attack_1_4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 45
+        height: 22
+      alignment: 9
+      pivot: {x: 0.10992567, y: 0.3480228}
+      border: {x: 0, y: 0, z: 29, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4842cd05b2c454ea3b6079c470aa2cd9
+      internalID: 181682087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_knight_attack_1_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 45
+        height: 22
+      alignment: 9
+      pivot: {x: 0.105282255, y: 0.31952706}
+      border: {x: 0, y: 0, z: 28, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbafdbc7b5a314c0ca95305edca2f673
+      internalID: -361237671
       vertices: []
       indices: 
       edges: []
@@ -169,8 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      dragon_knight_idle_1: -1856670831
-      dragon_knight_idle_0: 271259516
+      dragon_knight_attack_1_1: -1305356591
+      dragon_knight_attack_1_5: -361237671
+      dragon_knight_attack_1_0: 1767236110
+      dragon_knight_attack_1_2: -1011937020
+      dragon_knight_attack_1_4: 181682087
+      dragon_knight_attack_1_3: -1995242796
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

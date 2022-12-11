@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fc6ddaee13c5840d6b9d1cf673fc42e2
+guid: 04fdcafd204f14a369a50b39ec270a04
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,43 +117,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dragon_knight_idle_0
+      name: goblin attack_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 0
-        width: 31
-        height: 16
-      alignment: 9
-      pivot: {x: 0.33579415, y: 0.47107753}
-      border: {x: 5, y: 0, z: 17, w: 0}
+        x: 239
+        y: 110
+        width: 194
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc906240b3e94f9f9b8026bc7109173
-      internalID: 271259516
+      spriteID: f121cda2406b54bed828c5d4abb1d08e
+      internalID: 1623091284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_knight_idle_1
+      name: goblin attack_1
       rect:
         serializedVersion: 2
-        x: 109
-        y: 0
-        width: 31
-        height: 16
-      alignment: 9
-      pivot: {x: 0.34325826, y: 0.5289228}
-      border: {x: 6, y: 0, z: 17, w: 0}
+        x: 895
+        y: 110
+        width: 210
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff780b16d12434be799f76e5c1fa3dac
-      internalID: -1856670831
+      spriteID: 8fbaab401c9b84e738f766ea92aac90b
+      internalID: 653431015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin attack_2
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 110
+        width: 228
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 46, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70237a85dfe54052b96393c0900605f
+      internalID: 107246790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin attack_3
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 110
+        width: 194
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 35, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9a8dbe57f3044349a24f6b9f3ab9f8
+      internalID: 1400195600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin attack_4
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 110
+        width: 194
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 40, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952d5ca07441c422dbd65339db6013d2
+      internalID: 70931334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin attack_5
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 110
+        width: 212
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 54, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497ec76504c0a46e0a5fa47d01657c68
+      internalID: 1683152468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin attack_6
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 110
+        width: 229
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 60, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2afebd54e7d64ae5b0fe4345a8fcd4e
+      internalID: -1531991575
       vertices: []
       indices: 
       edges: []
@@ -169,8 +274,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      dragon_knight_idle_1: -1856670831
-      dragon_knight_idle_0: 271259516
+      goblin attack_6: -1531991575
+      goblin attack_3: 1400195600
+      goblin attack_2: 107246790
+      goblin attack_5: 1683152468
+      x: -1238200165
+      goblin attack_4: 70931334
+      goblin attack_1: 653431015
+      goblin attack_0: 1623091284
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

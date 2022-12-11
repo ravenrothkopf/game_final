@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fc6ddaee13c5840d6b9d1cf673fc42e2
+guid: 90d84881e402541cc82d6a438082c5d7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,43 +117,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dragon_knight_idle_0
+      name: goblin idle_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 0
-        width: 31
-        height: 16
-      alignment: 9
-      pivot: {x: 0.33579415, y: 0.47107753}
-      border: {x: 5, y: 0, z: 17, w: 0}
+        x: 239
+        y: 126
+        width: 194
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc906240b3e94f9f9b8026bc7109173
-      internalID: 271259516
+      spriteID: 08f8cf446092641ac94769b72273ebb4
+      internalID: 475326728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_knight_idle_1
+      name: goblin idle_1
       rect:
         serializedVersion: 2
-        x: 109
-        y: 0
-        width: 31
-        height: 16
-      alignment: 9
-      pivot: {x: 0.34325826, y: 0.5289228}
-      border: {x: 6, y: 0, z: 17, w: 0}
+        x: 911
+        y: 126
+        width: 194
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff780b16d12434be799f76e5c1fa3dac
-      internalID: -1856670831
+      spriteID: 05cc6dcbac9a9483e81bf84d832b7a8a
+      internalID: 1921951188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin idle_2
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 126
+        width: 194
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbb3c4b34ded47f3926c8d3432255c4
+      internalID: 733650691
       vertices: []
       indices: 
       edges: []
@@ -169,8 +190,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      dragon_knight_idle_1: -1856670831
-      dragon_knight_idle_0: 271259516
+      goblin idle_0: 475326728
+      goblin idle_1: 1921951188
+      goblin idle_2: 733650691
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

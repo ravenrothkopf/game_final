@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3f1194fe69ea44a4ca16e89b42816cce
+guid: afe063f0d2ed14dca935bc1085fea929
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,85 +117,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dragon_knight_run_0
+      name: goblin death_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 0
-        width: 31
-        height: 17
-      alignment: 9
-      pivot: {x: 0.37468854, y: 0.50000006}
+        x: 239
+        y: 126
+        width: 194
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fac962de5a0f34e31b6b0196c999fb77
-      internalID: -1550903889
+      spriteID: aeb24fb88935841c9ae3b64d0eeb8c81
+      internalID: 276104127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_knight_run_1
+      name: goblin death_1
       rect:
         serializedVersion: 2
-        x: 109
-        y: 0
-        width: 31
-        height: 17
-      alignment: 9
-      pivot: {x: 0.3602295, y: 0.5263665}
+        x: 911
+        y: 126
+        width: 194
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d8e09ec006674abc89ab7038caf89ca
-      internalID: 797527073
+      spriteID: dce0a97e2168c4d6a9dd9f2244f00b44
+      internalID: 1386914213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_knight_run_2
+      name: goblin death_2
       rect:
         serializedVersion: 2
-        x: 205
-        y: 0
-        width: 31
-        height: 17
-      alignment: 9
-      pivot: {x: 0.3650488, y: 0.45605603}
+        x: 1583
+        y: 126
+        width: 194
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 398b6f7a99baf41b4a8a55c98accc4d5
-      internalID: 959101730
+      spriteID: 914d2add0ffaa484c9620a7f38e254e7
+      internalID: 428364746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_knight_run_3
+      name: goblin death_3
       rect:
         serializedVersion: 2
-        x: 301
-        y: 0
-        width: 32
-        height: 17
-      alignment: 9
-      pivot: {x: 0.34592152, y: 0.5263665}
+        x: 2255
+        y: 126
+        width: 178
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d1eb1359f8c9417abfa6dddd51a1ed9
-      internalID: -1906622186
+      spriteID: 2659cd7cb06454b20acea4fa4834a51e
+      internalID: -617896835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin death_4
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 126
+        width: 163
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f13235af7e4f4db1b3604089c3e1f3f
+      internalID: -110208084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin death_5
+      rect:
+        serializedVersion: 2
+        x: 3615
+        y: 126
+        width: 194
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949d635bc7c914babbc220e6cf9f3543
+      internalID: -390154550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin death_6
+      rect:
+        serializedVersion: 2
+        x: 4287
+        y: 126
+        width: 244
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962bb5dd2807f4c9fbcaa1ca0595a3dc
+      internalID: -1290514156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin death_7
+      rect:
+        serializedVersion: 2
+        x: 4959
+        y: 126
+        width: 259
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ccc2346928d47c8aebf5b03a553b86
+      internalID: 370898969
       vertices: []
       indices: 
       edges: []
@@ -211,10 +295,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      dragon_knight_run_1: 797527073
-      dragon_knight_run_2: 959101730
-      dragon_knight_run_0: -1550903889
-      dragon_knight_run_3: -1906622186
+      goblin death_6: -1290514156
+      goblin death_5: -390154550
+      goblin death_1: 1386914213
+      goblin death_3: -617896835
+      goblin death_2: 428364746
+      goblin death_4: -110208084
+      goblin death_0: 276104127
+      goblin death_7: 370898969
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

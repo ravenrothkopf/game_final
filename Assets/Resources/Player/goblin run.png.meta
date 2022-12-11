@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fc6ddaee13c5840d6b9d1cf673fc42e2
+guid: 5769f067e3cdb4b98a6cd1e2616dd64e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,43 +117,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dragon_knight_idle_0
+      name: goblin run_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 0
-        width: 31
-        height: 16
-      alignment: 9
-      pivot: {x: 0.33579415, y: 0.47107753}
-      border: {x: 5, y: 0, z: 17, w: 0}
+        x: 239
+        y: 110
+        width: 194
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc906240b3e94f9f9b8026bc7109173
-      internalID: 271259516
+      spriteID: 7143dd263c1cf4b70a0a882c15cab0e2
+      internalID: 579159705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_knight_idle_1
+      name: goblin run_1
       rect:
         serializedVersion: 2
-        x: 109
-        y: 0
-        width: 31
-        height: 16
-      alignment: 9
-      pivot: {x: 0.34325826, y: 0.5289228}
-      border: {x: 6, y: 0, z: 17, w: 0}
+        x: 911
+        y: 126
+        width: 178
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff780b16d12434be799f76e5c1fa3dac
-      internalID: -1856670831
+      spriteID: ff37a9cd4a30642d9890c26983dee8f2
+      internalID: 472619074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin run_2
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 142
+        width: 178
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8d7a6c596004080b30d38f451d96d0
+      internalID: -1173052946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin run_3
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 110
+        width: 194
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448477c21c8ff44a1bc65f3926bb7f6a
+      internalID: 456603234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin run_4
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 126
+        width: 194
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a795bc673b9ad40208c670dd38f8788a
+      internalID: -635767254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin run_5
+      rect:
+        serializedVersion: 2
+        x: 3599
+        y: 126
+        width: 194
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e048140bfd734302a591d3e74fe1f49
+      internalID: -1953073122
       vertices: []
       indices: 
       edges: []
@@ -169,8 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      dragon_knight_idle_1: -1856670831
-      dragon_knight_idle_0: 271259516
+      goblin run_4: -635767254
+      goblin run_2: -1173052946
+      goblin run_5: -1953073122
+      goblin run_1: 472619074
+      goblin run_3: 456603234
+      goblin run_0: 579159705
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
