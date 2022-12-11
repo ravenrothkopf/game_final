@@ -200,8 +200,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685738235}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.7181187, y: 0.12217819, z: -0.019975383}
-  m_LocalScale: {x: 4.0136685, y: 3.0363486, z: 1}
+  m_LocalPosition: {x: -2.01, y: -0.01, z: -0.02}
+  m_LocalScale: {x: 4.2238655, y: 3.1953633, z: 1.0523704}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1072993253}
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 875394387}
   - component: {fileID: 875394388}
   - component: {fileID: 875394389}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -378,6 +378,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSpeed: 5
   anim: {fileID: 875394387}
+  enemyAnim: {fileID: 1053028110}
+  maxHealth: 100
+  isAlive: 1
 --- !u!114 &875394389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,7 +410,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 983509103}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: attackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -443,6 +446,7 @@ GameObject:
   - component: {fileID: 1053028116}
   - component: {fileID: 1053028115}
   - component: {fileID: 1053028117}
+  - component: {fileID: 1053028118}
   m_Layer: 6
   m_Name: enemy
   m_TagString: Untagged
@@ -533,7 +537,8 @@ Transform:
   m_LocalPosition: {x: 7.13, y: 0.51, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1815192178}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -586,7 +591,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.017617762, y: -0.008343399}
+  m_Offset: {x: 0.033010483, y: -0.008343399}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.37468854, y: 0.50000006}
@@ -597,8 +602,26 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.13023627, y: 0.2489382}
+  m_Size: {x: 0.23149276, y: 0.2489382}
   m_EdgeRadius: 0
+--- !u!114 &1053028118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053028108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c518a67ddf50c40c189d692ead1b4acd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackPoint: {fileID: 1815192178}
+  attackRange: 0.29
+  attackMask:
+    serializedVersion: 2
+    m_Bits: 128
+  attackDamage: 20
 --- !u!1 &1072993252
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,8 +769,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1685994734}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.6909187, y: 0.050678194, z: -0.019975383}
-  m_LocalScale: {x: 3.5607295, y: 2.9833674, z: 2.9833674}
+  m_LocalPosition: {x: -2.6472, y: 0.072, z: -0.019975383}
+  m_LocalScale: {x: 3.595913, y: 3.016135, z: 2.6337168}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1072993253}
@@ -935,3 +958,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.98, y: 0.1789732}
   m_EdgeRadius: 0
+--- !u!1 &1815192177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1815192178}
+  m_Layer: 6
+  m_Name: attackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1815192178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815192177}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.206, y: -0.072, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1053028112}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
