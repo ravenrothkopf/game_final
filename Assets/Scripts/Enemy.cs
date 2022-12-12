@@ -29,6 +29,7 @@ public class Enemy : MonoBehaviour
 
     void Die(){
         // die animation
+        GameObject.FindGameObjectWithTag("bg").GetComponent<bossBgSound>().stopBg();
         anim.SetBool("isDead", true);
 
         // disable enemy 

@@ -67,6 +67,7 @@ public class Player : MonoBehaviour
     void Die(){
         // die animation
         isAlive = false;
+        GameObject.FindGameObjectWithTag("bg").GetComponent<bossBgSound>().stopBg();
         rb.constraints = RigidbodyConstraints2D.FreezePosition;
         anim.SetBool("isDead", true);
         this.enabled = false;
