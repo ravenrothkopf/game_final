@@ -1,0 +1,519 @@
+fileFormatVersion: 2
+guid: c989229124fd14560b5fc25da1341035
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8897017f703734a8a8858da78b51b509
+      internalID: -1066454995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 154.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73470d8e10e6146c5b6b6371d81acb75
+      internalID: 628065798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 154.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8041f10ec3343e8abf70a511350c11
+      internalID: 242029514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 154.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614fd1a278b3a4d4195efa1db531c02b
+      internalID: -767992673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 154.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a40d100996c349e1b3eb0dd2777a72c
+      internalID: -824395892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 154.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571edeb8a7a2a4800a975c8b81b13178
+      internalID: -872049541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 154.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c4b6fab61a343bfa66f7a9092afc0e
+      internalID: -928885964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 154.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e0a6a97aa8641b88a84af7c9afceb3
+      internalID: 144903203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 154.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3feaeeb0961c46bc932eac2746b3538
+      internalID: 1210890130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec60ebd12c24a47e98ebfaf89cc7d567
+      internalID: -213705600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08049dc761314ee1a6675bb206c38f7
+      internalID: -99206908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 0.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e180bc76d51c46cc9e8e26fd3f0a33c
+      internalID: 2114050823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 0.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce3dcde90aff4b7ca971fe33c3025c7
+      internalID: 2014929079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183a594b7de2044c7bd2f6fe7a534df1
+      internalID: -233989050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 0.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094156d189e504ee29721afa3967a4d0
+      internalID: -1388896543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 0.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b0c01f5f4c44336a0154ab6b688515
+      internalID: -1925386293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 0.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c2212afbc6e497294e02db1e05caf9
+      internalID: -343418503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 0.5
+        width: 89.55556
+        height: 154.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bb3d2b60ad24b65a7dfa0e8f598f23
+      internalID: -2086819331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_1: 628065798
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_2: 242029514
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_4: -824395892
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_11: 2114050823
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_8: 1210890130
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_7: 144903203
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_0: -1066454995
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_9: -213705600
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_14: -1388896543
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_6: -928885964
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_12: 2014929079
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_16: -343418503
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_15: -1925386293
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_3: -767992673
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_5: -872049541
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_13: -233989050
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_10: -99206908
+      shine-effect-sprite-sheet-video-game-cartoon-animation-motion-design-d-classic-light-fx-eps-vector-illustration-vfx-frame-191586207-removebg-preview_17: -2086819331
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
