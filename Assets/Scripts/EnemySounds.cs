@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class EnemySounds : MonoBehaviour
 {
-    AudioSource aud;
+    public AudioSource hit;
+    public AudioSource die;
 
-    void Start(){
-        aud = GetComponent<AudioSource>();
+    public void playHit(){
+        hit.Play();
     }
 
-    public void playSound(){
-        aud.Play();
+    public void playDie(){
+        die.Play();
     }
+
 }
