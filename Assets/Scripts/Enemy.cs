@@ -7,17 +7,20 @@ public class Enemy : MonoBehaviour
     // health
     public int maxHealth;
     int curHealth;
+    public healthbar healthbar;
 
     // taking damage
     public Animator anim;
 
     void Start(){
         curHealth = maxHealth;
+        healthbar.SetMaxHealth(maxHealth);
     }
 
     public void TakeDamage(int damage){
         curHealth -= damage;
         anim.SetTrigger("hurt");
+        healthbar.SetHealth(curHealth);
         
         // play animation
 

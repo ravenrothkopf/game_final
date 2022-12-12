@@ -17,12 +17,14 @@ public class Player : MonoBehaviour
     public int maxHealth;
     int curHealth;
     public bool isAlive = true;
+    public healthbar healthbar;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         curHealth = maxHealth;
+        healthbar.SetMaxHealth(maxHealth);
     }
 
     // Update is called once per frame
@@ -55,6 +57,7 @@ public class Player : MonoBehaviour
         public void TakeDamage(int damage){
         curHealth -= damage;
         anim.SetTrigger("hurt");
+        healthbar.SetHealth(curHealth);
         
         // play animation
 
