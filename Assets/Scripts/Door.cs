@@ -21,5 +21,9 @@ public class Door : MonoBehaviour
                 isOpened = true;
             }
         }
+        this.gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
+    }
+    private void OnTriggerExit2D(Collider2D collision){
+        this.gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
     }
 }

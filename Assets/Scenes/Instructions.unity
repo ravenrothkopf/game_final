@@ -698,9 +698,9 @@ GameObject:
   - component: {fileID: 1301703337}
   - component: {fileID: 1301703336}
   - component: {fileID: 1301703335}
-  - component: {fileID: 1301703339}
   - component: {fileID: 1301703340}
   - component: {fileID: 1301703341}
+  - component: {fileID: 1301703342}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -816,23 +816,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1301703339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1301703334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 636ae134204e64f98b4036590c68cf6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerSpeed: 5
-  anim: {fileID: 1301703335}
-  enemyAnim: {fileID: 0}
-  maxHealth: 100
-  isAlive: 1
 --- !u!61 &1301703340
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -879,6 +862,20 @@ MonoBehaviour:
     m_Bits: 64
   attackDamage: 20
   attackRate: 2
+--- !u!114 &1301703342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301703334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3eb21f2b491847c6ae5e2bb71cc9f85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpeed: 5
+  anim: {fileID: 1301703335}
 --- !u!1 &1561592385
 GameObject:
   m_ObjectHideFlags: 0
