@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -74,5 +75,15 @@ public class Player : MonoBehaviour
         rb.constraints = RigidbodyConstraints2D.FreezePosition;
         anim.SetBool("isDead", true);
         this.enabled = false;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("collision");
+        if(collision.gameObject.tag == "Door" && FindObjectOfType<Score>().collected)
+        {
+            SceneManager.LoadScene("boss battle");
+            //sound fx stuff: SFXManager.sfxInstance.Audio.PlayOneShot(SFXManager.sfxInstance.Drop);
+        }
     }
 }

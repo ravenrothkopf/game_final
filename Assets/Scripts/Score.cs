@@ -13,6 +13,7 @@ public class Score : MonoBehaviour
  
      void Start() {
         scoreText.text = score.ToString(); 
+        score = 0;
         collected = false;
      }
  
@@ -21,7 +22,7 @@ public class Score : MonoBehaviour
          scoreText.GetComponent<Text>().text = score.ToString();
          if (score >= 6) {
             collected = true;
-             //SFXManager.sfxInstance.Audio.PlayOneShot(SFXManager.sfxInstance.Twinkle);
+            //SFXManager.sfxInstance.Audio.PlayOneShot(SFXManager.sfxInstance.Twinkle);
          }
      }
 }

@@ -9,6 +9,7 @@ TagManager:
   - Gem
   - bg
   - Enemy
+  - Door
   layers:
   - Default
   - TransparentFX
