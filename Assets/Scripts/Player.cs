@@ -21,8 +21,8 @@ public class Player : MonoBehaviour
     public healthbar healthbar;
 
     //load next scene
-    [SerializeField]
-    private float delayBeforeLoading = 10f;
+    //[SerializeField]
+    private float delayBeforeLoading = 2f;
     [SerializeField]
     private string sceneNameToLoad;
     private float timeElapsed;
@@ -56,12 +56,6 @@ public class Player : MonoBehaviour
             anim.SetBool("speed", false);
         }
 
-        timeElapsed += Time.deltaTime;
-        
-        if (timeElapsed > delayBeforeLoading && isAlive == false)
-        {
-            SceneManager.LoadScene("Game_Over_Lose");
-        }
     
     }
 
@@ -89,6 +83,12 @@ public class Player : MonoBehaviour
         rb.constraints = RigidbodyConstraints2D.FreezePosition;
         anim.SetBool("isDead", true);
         this.enabled = false;
+        StartCoroutine(LoadLevelAfterDelay(delayBeforeLoading));
+    }
+    IEnumerator LoadLevelAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene("Game_Over_Lose");
     }
 }
 

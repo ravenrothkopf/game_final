@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class Enemy : MonoBehaviour
 
     // taking damage
     public Animator anim;
+
+    private float delayBeforeLoading = 3f;
+    private float timeElapsed;
 
     void Start(){
         curHealth = maxHealth;
@@ -41,7 +45,16 @@ public class Enemy : MonoBehaviour
         this.enabled = false; 
 
         Debug.Log("died");
+        StartCoroutine(LoadLevelAfterDelay(delayBeforeLoading));
+
     }
+
+    IEnumerator LoadLevelAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene("Game_Over_Win");
+    }
+
 
     // face player
     public Transform player;
