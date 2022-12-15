@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     public int maxHealth;
     int curHealth;
     public healthbar healthbar;
+    public bool isDead;
 
     // taking damage
     public Animator anim;

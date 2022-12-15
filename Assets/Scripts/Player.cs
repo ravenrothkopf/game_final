@@ -20,6 +20,13 @@ public class Player : MonoBehaviour
     public bool isAlive = true;
     public healthbar healthbar;
 
+    //load next scene
+    [SerializeField]
+    private float delayBeforeLoading = 10f;
+    [SerializeField]
+    private string sceneNameToLoad;
+    private float timeElapsed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,6 +54,13 @@ public class Player : MonoBehaviour
         }
         else{
             anim.SetBool("speed", false);
+        }
+
+        timeElapsed += Time.deltaTime;
+        
+        if (timeElapsed > delayBeforeLoading && isAlive == false)
+        {
+            SceneManager.LoadScene("Game_Over_Lose");
         }
     
     }
@@ -87,3 +101,5 @@ public class Player : MonoBehaviour
         }
     }
 }
+
+ 
